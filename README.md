@@ -55,6 +55,6 @@ I followed the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) procedure to
 
 # Outcomes:
 [Here](https://github.com/ohorban/twitter_coronavirus/tree/master/viz) you can see how many tweets were posted containing a certain hashtag based on the language of the tweet and the country where the tweet was posted
-Additionally, I created a file `generate_graph.py` that uses matplotlib to build pie charts of the data. For example, running this command: `./generate_hraph.py --input_file= viz/country/#corona` will build this graph:
+Additionally, I created a file `generate_graph.py` that uses matplotlib to build pie charts of the data. For example, running this command: `./generate_graph.py --input_file= viz/country/#corona` will build this graph:
 <img src=example_pie.jpg />
 The graph shows the distribution of tweets with #corona based on country that the tweet was posted from. Here, we see that 33.5% of all tweets with #corona where posted in USA.
