@@ -60,3 +60,4 @@ I followed the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) procedure to
 The graph shows the distribution of tweets with #corona based on country that the tweet was posted from. Here, we see that 33.5% of all tweets with #corona where posted in USA.
 I also created an algoritm `generate_daily.py` which takes a country code and a hashtag as inputs to show the use of that hashtag in that country throughout different periods of 2020. For example, running a command `./generate_daily.py --input_country=US --input_tag==#coronavirus` gives this output:
 <img src=example_graph.jpg />
+From this graph you can clearly see that the use of #coronavirus was at its highest around March 10, which is when first lock down happened in the US.
